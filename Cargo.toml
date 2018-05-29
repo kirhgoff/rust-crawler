@@ -1,0 +1,13 @@
+[package]
+name = "rust-crawler"
+version = "0.1.0"
+authors = ["Kirill Lastovirya <kirill.lastovirya@gmail.com>"]
+
+[dependencies]
+multiqueue = "*"
+# hyper dependencies
+hyper-native-tls = "*"
+hyper = "*"
+html5ever = "*"
+string_cache = "*"
+
